@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    primary:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://db-d.dqprism.com:3306/jimmer_demo?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true&useSSL=false&serverTimezone=GMT%2B8&zeroDateTimeBehavior=convertToNull
+      username: daqi
+      password: bz8YdeGro27erJ7kH4jFEeay7h8qeicI
+    jobdb:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://db-d.dqprism.com:3306/jobdb?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true&useSSL=false&serverTimezone=GMT%2B8&zeroDateTimeBehavior=convertToNull
+      username: daqi
+      password: bz8YdeGro27erJ7kH4jFEeay7h8qeicI
+
+
+
+jimmer:
+  show-sql: true
+  pretty-sql: true
+  database-validation-mode: ERROR
+
+
+
+
