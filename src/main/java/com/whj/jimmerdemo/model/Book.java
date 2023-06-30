@@ -18,11 +18,8 @@ public interface Book {
 
     double price();
 
-    int store_id();
-
     @ManyToOne
     @Nullable
-
     BookStore store();
 
 
