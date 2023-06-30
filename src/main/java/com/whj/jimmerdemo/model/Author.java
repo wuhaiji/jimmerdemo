@@ -2,6 +2,8 @@ package com.whj.jimmerdemo.model;
 
 import org.babyfish.jimmer.sql.*;
 
+import java.util.List;
+
 @Entity
 public interface Author {
 
@@ -17,4 +19,7 @@ public interface Author {
      * 这里，Gender是一个枚举，代码稍后给出
      */
     Gender gender();
+
+    @ManyToMany(mappedBy = "authors")
+    List<Book> books();
 }
